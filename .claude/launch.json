@@ -6,6 +6,13 @@
       "runtimeExecutable": "npm",
       "runtimeArgs": ["run", "dev"],
       "port": 5173
+    },
+    {
+      "name": "ai-trading-workstation",
+      "runtimeExecutable": "bash",
+      "runtimeArgs": ["scripts/dev-backend.sh"],
+      "cwd": "projects/ai-trading-workstation",
+      "port": 8000
     }
   ]
 }
